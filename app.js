@@ -9,4 +9,4 @@ function do_something(l) {
   return x;
 }
 
-console.log(do_something([1, 2, 3, 3, 3, 3, 4, 5]));
+console.log(do_something([1, 2, 3, 3, 3, 3, 4, 5]).join(', '));
